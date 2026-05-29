@@ -1,0 +1,121 @@
+package.json
+vite.config.js
+.gitignore
+.env.example
+
+public/
+  manifest.webmanifest
+
+src/
+  main.jsx
+  App.jsx
+
+src/router/
+  AppRouter.jsx
+  routeConstants.js
+
+src/config/
+  appConfig.js
+
+src/bootstrap/
+  initializeApp.js
+  initializeLanguage.js
+  initializePWA.js
+  initializeStorage.js
+
+src/navigation/
+  historyManager.js
+
+src/errors/
+  errorHandler.js
+
+src/context/
+  LanguageContext.jsx
+  UserContext.jsx
+  ThemeContext.jsx
+  SnackbarContext.jsx
+  PalmReadingContext.jsx
+  TarotContext.jsx
+
+src/theme/
+  globalStyles.css
+  animations.css
+
+src/layouts/
+  MainLayout.jsx
+
+src/components/navigation/
+  BottomNavigation.jsx
+  AppHeader.jsx
+
+src/components/common/
+  CosmicBackground.jsx
+  Snackbar.jsx
+  NetworkStatusBar.jsx
+  InstallPWAButton.jsx
+  DisclaimerBanner.jsx
+  ExitConfirmationDialog.jsx
+
+src/hooks/
+  useOnlineStatus.js
+  useDoubleBackExit.js
+  useExitConfirmation.js
+
+src/pages/
+  SplashScreen.jsx
+  LanguageScreen.jsx
+  OnboardingScreen.jsx
+  ProfileSetupScreen.jsx
+  HomeScreen.jsx
+  HandSelectionScreen.jsx
+  PalmScanScreen.jsx
+  PalmResultScreen.jsx
+  PalmChatScreen.jsx
+  TarotScreen.jsx
+  TarotResultScreen.jsx
+  DailyGuidanceScreen.jsx
+  HoroscopeScreen.jsx
+  SettingsScreen.jsx
+  PrivacyPolicyScreen.jsx
+  OfflineScreen.jsx
+  NotFoundScreen.jsx
+
+src/services/storage/
+  localStorageService.js
+
+src/services/ai/
+  aiService.js
+  openRouterClient.js
+  palmVisionService.js
+  tarotReadingService.js
+  horoscopeService.js
+  guidanceService.js
+
+src/services/image/
+  imageToBase64.js
+  imageValidationService.js
+  imageCompressionService.js
+
+src/services/i18n/
+  translationService.js
+
+src/services/share/
+  shareService.js
+
+src/services/navigation/
+  backNavigationService.js
+
+src/services/system/
+  disclaimerService.js
+
+src/locales/
+  en.json
+  hi.json
+  es.json
+  fr.json
+  it.json
+  ko.json
+
+src/tests/
+  palmFlow.test.js
+  aiService.test.js
